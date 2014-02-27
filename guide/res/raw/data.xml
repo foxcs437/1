@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entries>
+	<section name="Basics">
+		<entry id="107">
+			<name>HTML Introduction</name>
+			<htmlfilename>basics_intro-html</htmlfilename>
+		</entry>
+		<entry id="107">
+			<name>XHTML Introduction</name>
+			<htmlfilename>basics_intro-xhtml</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Cascading Style Sheets</name>
+			<htmlfilename>basics_css</htmlfilename>
+		</entry>
+		<entry id="107">
+			<name>Comments</name>
+			<htmlfilename>basics_comment</htmlfilename>
+		</entry>
+		<entry id="108">
+			<name>!DOCTYPE Declaration</name>
+			<htmlfilename>basics_doctype</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Standard Attributes</name>
+			<htmlfilename>basics_standardattributes</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Standard Event Attributes</name>
+			<htmlfilename>basics_standardevents</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>URL Encoding</name>
+			<htmlfilename>basics_encoding</htmlfilename>
+		</entry>
+		<entry id="112">
+			<name>Browser Compatibility</name>
+			<htmlfilename>basics_browser-compatibility</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Basic How To's</name>
+			<htmlfilename>basics_howtos</htmlfilename>
+		</entry>
+		<entry id="107">
+			<name>Basic Examples</name>
+			<htmlfilename>basics_examples</htmlfilename>
+		</entry>
+	</section>
+	<section name="Form Elements">
+		<entry id="72">
+			<name>button</name>
+			<htmlfilename>form_button</htmlfilename>
+		</entry>
+		<entry id="73">
+			<name>fieldset</name>
+			<htmlfilename>form_fieldset</htmlfilename>
+		</entry>
+		<entry id="74">
+			<name>form</name>
+			<htmlfilename>form_form</htmlfilename>
+		</entry>
+		<entry id="75">
+			<name>input</name>
+			<htmlfilename>form_input</htmlfilename>
+		</entry>
+		<entry id="77">
+			<name>label</name>
+			<htmlfilename>form_label</htmlfilename>
+		</entry>
+		<entry id="78">
+			<name>legend</name>
+			<htmlfilename>form_legend</htmlfilename>
+		</entry>
+		<entry id="79">
+			<name>optgroup</name>
+			<htmlfilename>form_optgroup</htmlfilename>
+		</entry>
+		<entry id="80">
+			<name>option</name>
+			<htmlfilename>form_option</htmlfilename>
+		</entry>
+		<entry id="81">
+			<name>select</name>
+			<htmlfilename>form_select</htmlfilename>
+		</entry>
+		<entry id="82">
+			<name>textarea</name>
+			<htmlfilename>form_textarea</htmlfilename>
+		</entry>
+	</section>
+	<section name="Frame and Window Elements">
+		<entry id="102">
+			<name>frame</name>
+			<htmlfilename>frame_frame</htmlfilename>
+		</entry>
+		<entry id="103">
+			<name>frameset</name>
+			<htmlfilename>frame_frameset</htmlfilename>
+		</entry>
+		<entry id="104">
+			<name>noframes</name>
+			<htmlfilename>frame_noframes</htmlfilename>
+		</entry>
+		<entry id="105">
+			<name>iframe</name>
+			<htmlfilename>frame_iframe</htmlfilename>
+		</entry>
+	</section>
+	<section name="Head Elements">
+		<entry id="15">
+			<name>base</name>
+			<htmlfilename>head_base</htmlfilename>
+		</entry>
+		<entry id="16">
+			<name>link</name>
+			<htmlfilename>head_link</htmlfilename>
+		</entry>
+		<entry id="17">
+			<name>meta</name>
+			<htmlfilename>head_meta</htmlfilename>
+		</entry>
+		<entry id="18">
+			<name>script</name>
+			<htmlfilename>head_script</htmlfilename>
+		</entry>
+		<entry id="19">
+			<name>style</name>
+			<htmlfilename>head_style</htmlfilename>
+		</entry>
+		<entry id="20">
+			<name>title</name>
+			<htmlfilename>head_title</htmlfilename>
+		</entry>
+	</section>
+	<section name="Image and Media Elements">
+		<entry id="83">
+			<name>applet</name>
+			<htmlfilename>media_applet</htmlfilename>
+		</entry>
+		<entry id="84">
+			<name>area</name>
+			<htmlfilename>media_area</htmlfilename>
+		</entry>
+		<entry id="87">
+			<name>img</name>
+			<htmlfilename>media_img</htmlfilename>
+		</entry>
+		<entry id="88">
+			<name>map</name>
+			<htmlfilename>media_map</htmlfilename>
+		</entry>
+		<entry id="90">
+			<name>object</name>
+			<htmlfilename>media_object</htmlfilename>
+		</entry>
+		<entry id="91">
+			<name>param</name>
+			<htmlfilename>media_param</htmlfilename>
+		</entry>
+	</section>
+	<section name="List Elements">
+		<entry id="21">
+			<name>dd</name>
+			<htmlfilename>list_dd</htmlfilename>
+		</entry>
+		<entry id="22">
+			<name>dir</name>
+			<htmlfilename>list_dir</htmlfilename>
+		</entry>
+		<entry id="23">
+			<name>dl</name>
+			<htmlfilename>list_dl</htmlfilename>
+		</entry>
+		<entry id="24">
+			<name>dt</name>
+			<htmlfilename>list_dt</htmlfilename>
+		</entry>
+		<entry id="25">
+			<name>li</name>
+			<htmlfilename>list_li</htmlfilename>
+		</entry>
+		<entry id="26">
+			<name>menu</name>
+			<htmlfilename>list_menu</htmlfilename>
+		</entry>
+		<entry id="27">
+			<name>ol</name>
+			<htmlfilename>list_ol</htmlfilename>
+		</entry>
+		<entry id="28">
+			<name>ul</name>
+			<htmlfilename>list_ul</htmlfilename>
+		</entry>
+	</section>
+	<section name="Structural Elements">
+		<entry id="1">
+			<name>blockquote</name>
+			<htmlfilename>structural_blockquote</htmlfilename>
+		</entry>
+		<entry id="2">
+			<name>body</name>
+			<htmlfilename>structural_body</htmlfilename>
+		</entry>
+		<entry id="3">
+			<name>br</name>
+			<htmlfilename>structural_br</htmlfilename>
+		</entry>
+		<entry id="4">
+			<name>div</name>
+			<htmlfilename>structural_div</htmlfilename>
+		</entry>
+		<entry id="5">
+			<name>h1</name>
+			<htmlfilename>structural_h1</htmlfilename>
+		</entry>
+		<entry id="6">
+			<name>h2</name>
+			<htmlfilename>structural_h2</htmlfilename>
+		</entry>
+		<entry id="7">
+			<name>h3</name>
+			<htmlfilename>structural_h3</htmlfilename>
+		</entry>
+		<entry id="8">
+			<name>h4</name>
+			<htmlfilename>structural_h4</htmlfilename>
+		</entry>
+		<entry id="9">
+			<name>h5</name>
+			<htmlfilename>structural_h5</htmlfilename>
+		</entry>
+		<entry id="10">
+			<name>h6</name>
+			<htmlfilename>structural_h6</htmlfilename>
+		</entry>
+		<entry id="11">
+			<name>head</name>
+			<htmlfilename>structural_head</htmlfilename>
+		</entry>
+		<entry id="12">
+			<name>hr</name>
+			<htmlfilename>structural_hr</htmlfilename>
+		</entry>
+		<entry id="13">
+			<name>html</name>
+			<htmlfilename>structural_html</htmlfilename>
+		</entry>
+		<entry id="14">
+			<name>p</name>
+			<htmlfilename>structural_p</htmlfilename>
+		</entry>
+	</section>
+	<section name="Table Elements">
+		<entry id="92">
+			<name>caption</name>
+			<htmlfilename>table_caption</htmlfilename>
+		</entry>
+		<entry id="93">
+			<name>col</name>
+			<htmlfilename>table_col</htmlfilename>
+		</entry>
+		<entry id="94">
+			<name>colgroup</name>
+			<htmlfilename>table_colgroup</htmlfilename>
+		</entry>
+		<entry id="95">
+			<name>table</name>
+			<htmlfilename>table_table</htmlfilename>
+		</entry>
+		<entry id="96">
+			<name>tbody</name>
+			<htmlfilename>table_tbody</htmlfilename>
+		</entry>
+		<entry id="97">
+			<name>td</name>
+			<htmlfilename>table_td</htmlfilename>
+		</entry>
+		<entry id="98">
+			<name>tfoot</name>
+			<htmlfilename>table_tfoot</htmlfilename>
+		</entry>
+		<entry id="99">
+			<name>th</name>
+			<htmlfilename>table_th</htmlfilename>
+		</entry>
+		<entry id="100">
+			<name>thead</name>
+			<htmlfilename>table_thead</htmlfilename>
+		</entry>
+		<entry id="101">
+			<name>tr</name>
+			<htmlfilename>table_tr</htmlfilename>
+		</entry>
+	</section>
+	<section name="Text Formatting Elements">
+		<entry id="29">
+			<name>a</name>
+			<htmlfilename>text_a</htmlfilename>
+		</entry>
+		<entry id="30">
+			<name>abbr</name>
+			<htmlfilename>text_abbr</htmlfilename>
+		</entry>
+		<entry id="31">
+			<name>acronym</name>
+			<htmlfilename>text_acronym</htmlfilename>
+		</entry>
+		<entry id="32">
+			<name>address</name>
+			<htmlfilename>text_address</htmlfilename>
+		</entry>
+		<entry id="33">
+			<name>b</name>
+			<htmlfilename>text_b</htmlfilename>
+		</entry>
+		<entry id="34">
+			<name>basefont</name>
+			<htmlfilename>text_basefont</htmlfilename>
+		</entry>
+		<entry id="35">
+			<name>bdo</name>
+			<htmlfilename>text_bdo</htmlfilename>
+		</entry>
+		<entry id="36">
+			<name>big</name>
+			<htmlfilename>text_big</htmlfilename>
+		</entry>
+		<entry id="38">
+			<name>center</name>
+			<htmlfilename>text_center</htmlfilename>
+		</entry>
+		<entry id="39">
+			<name>cite</name>
+			<htmlfilename>text_cite</htmlfilename>
+		</entry>
+		<entry id="40">
+			<name>code</name>
+			<htmlfilename>text_code</htmlfilename>
+		</entry>
+		<entry id="40">
+			<name>del</name>
+			<htmlfilename>text_del</htmlfilename>
+		</entry>
+		<entry id="41">
+			<name>dfn</name>
+			<htmlfilename>text_dfn</htmlfilename>
+		</entry>
+		<entry id="42">
+			<name>em</name>
+			<htmlfilename>text_em</htmlfilename>
+		</entry>
+		<entry id="43">
+			<name>font</name>
+			<htmlfilename>text_font</htmlfilename>
+		</entry>
+		<entry id="44">
+			<name>i</name>
+			<htmlfilename>text_i</htmlfilename>
+		</entry>
+		<entry id="45">
+			<name>ins</name>
+			<htmlfilename>text_ins</htmlfilename>
+		</entry>
+		<entry id="46">
+			<name>kbd</name>
+			<htmlfilename>text_kbd</htmlfilename>
+		</entry>
+		<entry id="49">
+			<name>noscript</name>
+			<htmlfilename>text_noscript</htmlfilename>
+		</entry>
+		<entry id="51">
+			<name>pre</name>
+			<htmlfilename>text_pre</htmlfilename>
+		</entry>
+		<entry id="52">
+			<name>q</name>
+			<htmlfilename>text_q</htmlfilename>
+		</entry>
+		<entry id="59">
+			<name>s</name>
+			<htmlfilename>text_s</htmlfilename>
+		</entry>
+		<entry id="60">
+			<name>samp</name>
+			<htmlfilename>text_samp</htmlfilename>
+		</entry>
+		<entry id="61">
+			<name>small</name>
+			<htmlfilename>text_small</htmlfilename>
+		</entry>
+		<entry id="62">
+			<name>span</name>
+			<htmlfilename>text_span</htmlfilename>
+		</entry>
+		<entry id="63">
+			<name>strike</name>
+			<htmlfilename>text_strike</htmlfilename>
+		</entry>
+		<entry id="64">
+			<name>strong</name>
+			<htmlfilename>text_strong</htmlfilename>
+		</entry>
+		<entry id="65">
+			<name>sub</name>
+			<htmlfilename>text_sub</htmlfilename>
+		</entry>
+		<entry id="66">
+			<name>sup</name>
+			<htmlfilename>text_sup</htmlfilename>
+		</entry>
+		<entry id="67">
+			<name>tt</name>
+			<htmlfilename>text_tt</htmlfilename>
+		</entry>
+		<entry id="68">
+			<name>u</name>
+			<htmlfilename>text_u</htmlfilename>
+		</entry>
+		<entry id="69">
+			<name>var</name>
+			<htmlfilename>text_var</htmlfilename>
+		</entry>
+	</section>
+	<section name="Character Sets">
+		<entry id="106">
+			<name>Character Sets</name>
+			<htmlfilename>char_charsets</htmlfilename>
+		</entry>
+		<entry id="107">
+			<name>ASCII Character Set</name>
+			<htmlfilename>char_ascii</htmlfilename>
+		</entry>
+		<entry id="108">
+			<name>ISO-8859-1</name>
+			<htmlfilename>char_iso-8859-1</htmlfilename>
+		</entry>
+		<entry id="109">
+			<name>Math Symbols</name>
+			<htmlfilename>char_mathsymbols</htmlfilename>
+		</entry>
+		<entry id="110">
+			<name>Greek Letters</name>
+			<htmlfilename>char_greekletters</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Other Entities</name>
+			<htmlfilename>char_otherentities</htmlfilename>
+		</entry>
+	</section>
+	<section name="Reference">
+		<entry id="110">
+			<name>Colors</name>
+			<htmlfilename>basics_colors</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Fonts</name>
+			<htmlfilename>basics_fonts</htmlfilename>
+		</entry>
+		<entry id="109">
+			<name>Elements / Valid DTDs</name>
+			<htmlfilename>basics_dtd</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Deprecated Elements</name>
+			<htmlfilename>basics_deprecated</htmlfilename>
+		</entry>
+		<entry id="111">
+			<name>Language Codes</name>
+			<htmlfilename>basics_languagecodes</htmlfilename>
+		</entry>
+		<entry id="112">
+			<name>HTTP Status Messages</name>
+			<htmlfilename>basics_httpmessages</htmlfilename>
+		</entry>
+	</section>
+</entries>

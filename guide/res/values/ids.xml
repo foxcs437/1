@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="item_lay">false</item>
+    <item type="id" name="item_text">false</item>
+    <item type="id" name="arrow_icon">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="webview">false</item>
+</resources>

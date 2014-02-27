@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>XHTML Introduction</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">XHTML Introduction</h1>
+<p>XHTML stands for <strong>E</strong>xtensible <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage and is a stricter and cleaner version of HTML.</p>
+<p>XHTML is...<br />
+...nearly identical to HTML 4.01<br />
+...HTML defined as XML<br />
+...recommended by W3C</p>
+
+<h1 class="common">XHTML Support</h1>
+<p>XHTML is compatible with HTML 4.01. All current browsers support XHTML. </p>
+
+<h1 class="common">XHTML Syntax Rules</h1>
+<p>&#8226; Attribute names must be in lower case</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;table WIDTH=&quot;100%&quot;&gt;</pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;table width=&quot;100%&quot;&gt;  </pre>
+<br />
+
+<p>&#8226; Attribute values must be quoted</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;table WIDTH=100%&gt;</pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;table width=&quot;100%&quot;&gt;  </pre>
+<br />
+
+<p>&#8226; Attribute minimization is not allowed</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;option selected&gt;  </pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;option selected=&quot;selected&quot; /&gt;  </pre>
+<br />
+
+<p>&#8226; XHTML DTD defines required elements</p>
+
+<p>All XHTML documents must have a DOCTYPE declaration. Also, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, and <code>&lt;body&gt;</code> elements must be present.</p>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" />
+
+&lt;!DOCTYPE Doctype goes here&gt;
+&lt;html xmlns=&quot;http://www.w3.org/
+  1999/xhtml&quot;&gt;
+&lt;head&gt;
+  &lt;title&gt;Title goes here&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  <em>elements</em>
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<h1 class="common">XHTML and HTML Differences</h1>
+<p>XHTML is compatible with HTML 4.01. All current browsers support XHTML. </p>
+
+<p>&#8226;  Elements must be properly nested</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;b&gt;&lt;i&gt;bold + italic&lt;/b&gt;&lt;/i&gt;  </pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;b&gt;&lt;i&gt;bold + italic&lt;/i&gt;&lt;/b&gt;  </pre>
+<br />
+
+<p>&#8226;  Elements must always be closed</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;p&gt;paragraph 1<br />   &lt;p&gt;paragraph 2
+   &lt;br&gt;  </pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;p&gt;paragraph 1&lt;/p&gt;
+   &lt;p&gt;paragraph 2&lt;/p&gt;
+   &lt;br /&gt;</pre>
+<br />
+
+<p>&#8226;  Elements must be in lowercase</p>
+<pre class="common"><img src="check_no.png" width="18" height="18" alt="Incorrect" /> &lt;TABLE&gt;
+     &lt;TR&gt;<br />       &lt;TD&gt;Cell 1&lt;/TD&gt;<br />     &lt;/TR&gt;<br />   &lt;/TABLE&gt;  </pre>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" /> &lt;table&gt;
+     &lt;tr&gt;<br />       &lt;td&gt;Cell 1&lt;/td&gt;<br />     &lt;/tr&gt;<br />   &lt;/table&gt;</pre>
+<br />
+
+<p>&#8226;  Documents must have one root element</p>
+
+<p>All XHTML elements must be nested within the <code>&lt;html&gt;</code> root element.  </p>
+<pre class="common"><img src="check_yes.png" width="18" height="18" alt="Correct" />
+
+&lt;!DOCTYPE Doctype goes here&gt;
+&lt;html xmlns=&quot;http://www.w3.org/
+  1999/xhtml&quot;&gt;
+&lt;head&gt;
+  &lt;title&gt;Title goes here&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  <em>elements</em>
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<h1 class="common">XHTML DTD</h1>
+<p>In XHTML, the DOCTYPE declaration is mandatory and is always the first line in the document.</p>
+
+<p>There are three XHTML DTDs:</p>
+<ul class="common">
+  <li class="common">Strict</li>
+  <li class="common">Transitional</li>
+  <li class="common">Frameset</li>
+</ul>
+
+<p>The most common DTD is XHTML Transitional.</p>
+<h2 class="common">XHTML 1.0 Strict</h2>
+<p>Contains all HTML elements and attributes, but DOES NOT include presentational or deprecated elements.  Framesets are not allowed. Markup must be well-formed XML.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD
+ XHTML 1.0 Strict//EN" "http://
+ www.w3.org/TR/xhtml1/DTD/
+  xhtml1-strict.dtd"&gt;</small></pre>
+
+<h2 class="common">XHTML 1.0 Transitional</h2>
+<p>Contains all HTML elements and attributes, INCLUDING presentational and deprecated elements. Framesets are not allowed. Markup must well-formed XML.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD
+ XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/
+  xhtml1-transitional.dtd"&gt;</small></pre>
+
+<h2 class="common">XHTML 1.0 Frameset</h2>
+<p>Same as XHTML 1.0 Transitional, but allows frameset content.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD
+ XHTML 1.0 Frameset//EN" "http://
+ www.w3.org/TR/xhtml1/DTD/
+  xhtml1-frameset.dtd"&gt;</small></pre>
+
+<h2 class="common">XHTML 1.1</h2>
+<p>Same as XHTML 1.0 Strict, but allows addition of modules.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD
+ XHTML 1.1//EN" "http://www.w3.org/
+ TR/xhtml11/DTD/xhtml11.dtd"&gt;</small></pre>
+ 
+</div>
+</body>
+</html>

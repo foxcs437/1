@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>table</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Tag Description</h1>
+<p>The <strong>table</strong> tag is used to define an HTML table which presents data in rows and columns. A simple HTML table consists of the <code>table</code> element and one or more <code>tr</code>, <code>th</code>, and <code>td</code> elements.</p>
+
+<p>The <code>&lt;tr&gt;</code> element defines a table row, the <code>&lt;th&gt;</code> element defines a table header, and the <code>&lt;td&gt;</code> element defines a table cell.</p>
+
+<p>This tag has the form:</p>
+
+<pre class="common">&lt;table summary=&quot;<em>string</em>&quot;<br />&lt;/table&gt;</pre>
+
+<h1 class="common">Optional Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>align</td>
+    <td>left<br />
+center<br />
+right</td>
+    <td><span style="color:red;">(deprecated)</span> Specifies the alignment of a table according to surrounding text</td>
+  </tr>
+  <tr>
+    <td>bgcolor</td>
+    <td><em>rgb(x,x,x)<br />
+#xxxxxx<br />
+colorname</em></td>
+    <td><span style="color:red;">(deprecated)</span> Specifies the background color for a table</td>
+  </tr>
+  <tr>
+    <td>border</td>
+    <td><em>pixels</em></td>
+    <td>Specifies the width of the borders around a table</td>
+  </tr>
+  <tr>
+    <td>cellpadding</td>
+    <td><em>pixels</em></td>
+    <td>Specifies the space between the cell wall and the cell content</td>
+  </tr>
+  <tr>
+    <td>cellspacing</td>
+    <td><em>pixels</em></td>
+    <td>Specifies the space between cells</td>
+  </tr>
+  <tr>
+    <td>frame</td>
+    <td>void<br />
+above<br />
+below<br />
+hsides<br />
+lhs<br />
+rhs<br />
+vsides<br />
+box<br />
+border</td>
+    <td>Specifies which parts of the outside borders that should be visible</td>
+  </tr>
+  <tr>
+    <td>rules</td>
+    <td>none<br />
+groups<br />
+rows<br />
+cols<br />
+all</td>
+    <td>Specifies which parts of the inside borders that should be visible</td>
+  </tr>
+  <tr>
+    <td>summary</td>
+    <td><em>text</em></td>
+    <td>Specifies a summary of the content of a table</td>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td><em>pixels<br />
+%</em></td>
+    <td>Specifies the width of a table</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Standard Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>class</td>
+    <td><em>classname</em></td>
+    <td>Sets the classname of the element</td>
+  </tr>
+  <tr>
+    <td>dir</td>
+    <td>rtl<br/>ltr</td>
+    <td>Sets the text direction for the content of the element</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td><em>id</em></td>
+    <td>Sets a unique id for the element</td>
+  </tr>
+  <tr>
+    <td>lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element</td>
+  </tr>
+  <tr>
+    <td>style</td>
+    <td><em>style_def</em></td>
+    <td>Sets the inline style of the element</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td><em>text</em></td>
+    <td>Sets extra information about the element</td>
+  </tr>
+  <tr>
+    <td>xml:lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element in XHTML documents</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Event Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>onclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse click</td>
+  </tr>
+  <tr>
+    <td>ondblclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse double-click</td>
+  </tr>
+  <tr>
+    <td>onkeydown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed
+  </td></tr>
+  <tr>
+    <td>onkeypress</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed and released</td>
+  </tr>
+  <tr>
+    <td>onkeyup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is released
+  </td></tr>
+  <tr>
+    <td>onmousedown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is pressed
+  </td></tr>
+  <tr>
+    <td>onmousemove</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves</td>
+  </tr>
+  <tr>
+    <td>onmouseout</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves out of the element</td>
+  </tr>
+  <tr>
+    <td>onmouseover</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves over the element</td>
+  </tr>
+  <tr>
+    <td>onmouseup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is released</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Examples</h1>
+<p>The following example shows the basic use of this tag:</p>
+<pre class="common">&lt;table border=&quot;1&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;H1&lt;/th&gt;
+    &lt;th&gt;H2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Item 1&lt;/td&gt;
+    &lt;td&gt;Item 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<table border="1">
+  <tr>
+    <th>H1</th>
+    <th>H2</th>
+  </tr>
+  <tr>
+    <td>Item 1</td>
+    <td>Item 2</td>
+  </tr>
+</table>
+</div>
+
+<h1 class="common">Browser Support</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="18%" align="center"><img src="firefox.gif" alt="Firefox" border="0" height="30" width="31" /> Firefox</td>
+    <td width="18%" align="center"><img src="ie9-32x32.png" alt="IE" border="0" height="32" width="32" /> IE</td>
+    <td width="18%" align="center"><img src="chrome-32x32.png" alt="Google Chrome" border="0" height="32" width="32" /> Chrome</td>
+    <td width="18%" align="center"><img src="opera.gif" alt="Opera" border="0" height="30" width="28" /> Opera</td>
+    <td width="18%" align="center"><img src="safari.gif" alt="Safari" border="0" height="30" width="28" /> Safari</td>
+  </tr>
+  <tr>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+  </tr>
+</table>
+
+
+<h1 class="common">Doctype Declaration Support</h1>
+<p>The following table lists the doctype declarations this element may appear in:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th colspan="3">HTML 4.01 / XHTML 1.0</th>
+      <th rowspan="2" align="center" valign="bottom" width="20%">XHTML 1.1</th>
+    </tr>
+    <tr>
+      <td align="center" width="20%" style="background-color:#66ccff">Transitional</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Strict</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Frameset</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Miscellaneous Information</h1>
+<table class="reference" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="50%">Defined In:</th>
+      <td>HTML 2</td>
+    </tr>
+    <tr>
+      <th align="left" width="50%">Empty Tag:</th>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Standard Event Attributes</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Standard Event Attributes</h1>
+
+<p>HTML 4 added the ability to let events trigger actions in a browser. These actions are carried out by a client-side scripting language such as JavaScript.</p>
+
+<p>The tables below list the standard event attributes that can be inserted into HTML / XHTML elements to define event actions.</p>
+
+<h1 class="common">&lt;body&gt; and &lt;frameset&gt; Events</h1>
+
+<p>The two attributes below can only be used in <code>&lt;body&gt;</code> or <code>&lt;frameset&gt;</code>:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="25%">Attribute</th>
+      <th align="left" width="15%">Value</th>
+      <th align="left" width="60%">Description</th>
+    </tr>
+    <tr>
+      <td>onload</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a document loads</td>
+    </tr>
+    <tr>
+      <td>onunload</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a document unloads</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Form Events</h1>
+<p>The attributes below can be used in form elements:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="25%">Attribute</th>
+      <th align="left" width="15%">Value</th>
+      <th align="left" width="60%">Description</th>
+    </tr>
+    <tr>
+      <td>onblur</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when an element loses focus</td>
+    </tr>
+    <tr>
+      <td>onchange</td>
+      <td><i>script</i></td>
+      <td>Executes script when an element's value changes</td>
+    </tr>
+    <tr>
+      <td>onfocus</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when an element gets focus</td>
+    </tr>
+    <tr>
+      <td>onreset</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a form is reset</td>
+    </tr>
+    <tr>
+      <td>onselect</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when an element is selected</td>
+    </tr>
+    <tr>
+      <td>onsubmit</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a form is submitted</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Image Events</h1>
+<p>The attribute below can be used with the <code>&lt;img&gt;</code> element:</p>
+
+<table class="reference" id="table1" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="25%">Attribute</th>
+    <th align="left" width="15%">Value</th>
+    <th align="left" width="60%">Description</th>
+  </tr>
+  <tr>
+    <td>onabort</td>
+    <td><i>script</i></td>
+    <td>Executes <em>script</em> when loading of an image is interrupted</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Keyboard Events</h1>
+<p>Valid in all elements except: <code>&lt;base&gt;</code>, <code>&lt;bdo&gt;</code>, <code>&lt;br&gt;</code>, <code>&lt;frame&gt;</code>, <code>&lt;frameset&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;iframe&gt;</code>, <code>&lt;meta&gt;</code>, <code>&lt;param&gt;</code>, <code>&lt;script&gt;</code>, <code>&lt;style&gt;</code>, <code>&lt;title&gt;</code>.</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="25%">Attribute</th>
+      <th align="left" width="15%">Value</th>
+      <th align="left" width="60%">Description</th>
+    </tr>
+    <tr>
+      <td>onkeydown</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a key is pressed</td>
+    </tr>
+    <tr>
+      <td>onkeypress</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a key is pressed and released</td>
+    </tr>
+    <tr>
+      <td>onkeyup</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a key is released</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Mouse Events</h1>
+<p>Valid in all elements except: <code>&lt;base&gt;</code>, <code>&lt;bdo&gt;</code>, <code>&lt;br&gt;</code>, <code>&lt;frame&gt;</code>, <code>&lt;frameset&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;iframe&gt;</code>, <code>&lt;meta&gt;</code>, <code>&lt;param&gt;</code>, <code>&lt;script&gt;</code>, <code>&lt;style&gt;</code>, <code>&lt;title&gt;</code>.</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="25%">Attribute</th>
+      <th align="left" width="15%">Value</th>
+      <th align="left" width="60%">Description</th>
+    </tr>
+    <tr>
+      <td>onclick</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> on a mouse click</td>
+    </tr>
+    <tr>
+      <td>ondblclick</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> on a mouse double-click</td>
+    </tr>
+    <tr>
+      <td>onmousedown</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a mouse button is pressed</td>
+    </tr>
+    <tr>
+      <td>onmousemove</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when the mouse cursor moves</td>
+    </tr>
+    <tr>
+      <td>onmouseout</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when the mouse cursor moves out of an element</td>
+    </tr>
+    <tr>
+      <td>onmouseover</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when the mouse cursor moves over an element</td>
+    </tr>
+    <tr>
+      <td>onmouseup</td>
+      <td><i>script</i></td>
+      <td>Executes <em>script</em> when a mouse button is released</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
+</body>
+</html>

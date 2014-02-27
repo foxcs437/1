@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>param</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Tag Description</h1>
+<p>The <strong>param</strong> tag is used to define variables or parameters for an <code>&lt;applet&gt;</code> or <code>&lt;object&gt;</code> element. </p>
+
+<p>This tag has the form:</p>
+<pre class="common">&lt;param name=&quot;<em>text</em>&quot;
+  type=&quot;MIME_type&quot;
+  value=&quot;value&quot;
+  valuetype=&quot;{ data | object |
+    ref }&quot;&gt;  </pre>
+
+<h1 class="common">Required Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>name</td>
+    <td><em>name</em></td>
+    <td>Sets the parameter name</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Optional Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>type</td>
+    <td><em>MIME_type</em></td>
+    <td>Specifies the MIME type for a parameter</td>
+  </tr>
+  <tr>
+    <td>value</td>
+    <td><em>value</em></td>
+    <td>Specifies the value of a parameter</td>
+  </tr>
+  <tr>
+    <td>valuetype</td>
+    <td>data<br />
+      ref<br />
+      object</td>
+    <td>Specifies the type of the value</td>
+  </tr>
+  </tbody>
+</table>
+<h1 class="common">Standard Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>id</td>
+    <td><em>id</em></td>
+    <td>Specifies a unique id for an element</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Event Attributes</h1>
+<p>None supported.</p>
+<h1 class="common">Examples</h1>
+<p>The following example shows the basic use of this tag:</p>
+<pre class="common">&lt;object
+  codebase=&quot;http://www.xyzzy.com/
+    applet.class&quot;
+  classid=&quot;java:program.start&quot;
+  codetype=&quot;application/java-vm&quot;
+  height=&quot;50&quot;
+  width=&quot;50&quot;&gt;
+  &lt;param name=&quot;options&quot;
+    value=&quot;xyzzy&quot; /&gt;
+  Browser does not support Java.
+&lt;/object&gt;</pre>
+
+<h1 class="common">Browser Support</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="18%" align="center"><img src="firefox.gif" alt="Firefox" border="0" height="30" width="31" /> Firefox</td>
+    <td width="18%" align="center"><img src="ie9-32x32.png" alt="IE" border="0" height="32" width="32" /> IE</td>
+    <td width="18%" align="center"><img src="chrome-32x32.png" alt="Google Chrome" border="0" height="32" width="32" /> Chrome</td>
+    <td width="18%" align="center"><img src="opera.gif" alt="Opera" border="0" height="30" width="28" /> Opera</td>
+    <td width="18%" align="center"><img src="safari.gif" alt="Safari" border="0" height="30" width="28" /> Safari</td>
+  </tr>
+  <tr>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+  </tr>
+</table>
+
+
+<h1 class="common">Doctype Declaration Support</h1>
+<p>The following table lists the doctype declarations this element may appear in:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th colspan="3">HTML 4.01 / XHTML 1.0</th>
+      <th rowspan="2" align="center" valign="bottom" width="20%">XHTML 1.1</th>
+    </tr>
+    <tr>
+      <td align="center" width="20%" style="background-color:#66ccff">Transitional</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Strict</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Frameset</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Miscellaneous Information</h1>
+<table class="reference" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="50%">Defined In:</th>
+      <td>HTML 3.2</td>
+    </tr>
+    <tr>
+      <th align="left" width="50%">Empty Tag:</th>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</body>
+</html>

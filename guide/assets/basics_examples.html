@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>HTML Examples</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">HTML Examples</h1>
+<p>The following examples show some of the more commonly used tags in HTML.</p>
+
+<h1 class="common"> Heading Elements</h1>
+<p>Headings are defined in HTML documents using the <code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code> tags. <code>&lt;h1&gt;</code> is the most significant heading, and <code>&lt;h6&gt;</code> is the least significant.</p>
+
+<pre class="common">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</pre>
+
+<p>This produces the following result:</p>
+<div class="output">
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+</div>
+<br />
+
+<p>Headings may be styled using CSS to vary the font size, weight, color, etc.</p>
+
+<h1 class="common">Text Elements</h1>
+<p>Various tags define text elements and their styles. Here are few example:</p>
+
+<pre class="common">&lt;p&gt;Paragraph Text&lt;/p&gt;
+(line &lt;br /&gt; break)
+&lt;hr /&gt; (horizontal rule)
+&lt;em&gt;Emphasized Text&lt;/em&gt;<br />&lt;strong&gt;Strong Text&lt;/strong&gt;
+&lt;pre&gt;Preformatted Text&lt;/pre&gt;
+&lt;code&gt;Computer Code&lt;/code&gt;</pre>
+
+<p>This produces the following result:</p>
+<div class="output">
+<p>Paragraph Text</p>
+(line <br /> break)
+<hr /> 
+(horizontal rule)<br />
+<em>Emphasized Text</em><br />
+<strong>Strong Text</strong><br />
+<pre>Preformatted Text</pre>
+<code>Computer Code</code>
+</div>
+
+<h1 class="common">Lists</h1>
+<p>HTML supports two common types of lists, unordered (<code>&lt;ul&gt;</code>) and ordered (<code>&lt;ol&gt;</code>). By default, unordered list items are marked by a bullet (&#8226;) character, and ordered list items are marked by a number.</p>
+<p>To define the list items, use the <code>&lt;li&gt;</code> tag.</p>
+<pre class="common">&lt;ul&gt;
+  &lt;li&gt;First Item&lt;/li&gt;
+  &lt;li&gt;Second Item&lt;/li&gt;
+  &lt;li&gt;Third Item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First Item&lt;/li&gt;
+  &lt;li&gt;Second Item&lt;/li&gt;
+  &lt;li&gt;Third Item&lt;/li&gt;
+&lt;/ol&gt;</pre>
+
+<p>This produces the following result:</p>
+<div class="output">
+<ul class="common">
+  <li class="common">First Item</li>
+  <li class="common">Second Item</li>
+  <li class="common">Third Item</li>
+</ul>
+
+<ol>
+  <li class="common">First Item</li>
+  <li class="common">Second Item</li>
+  <li class="common">Third Item</li>
+</ol>
+</div>
+
+<h1 class="common">Tables</h1>
+<p>Tables are defined with the <code>&lt;table&gt;</code> tag.</p>
+<p>A table is divided into rows (with the <code>&lt;tr&gt;</code> tag), and each row is divided into data cells (with the <code>&lt;td&gt;</code> tag).</p>
+<p>Optional table headers can be added by specifying the <code>&lt;th&gt;</code> tag.</p>
+<pre class="common">&lt;table border=&quot;1&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Header 1&lt;/th&gt;
+    &lt;th&gt;Header 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;row 1, cell 1&lt;/td&gt;
+    &lt;td&gt;row 1, cell 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;row 2, cell 1&lt;/td&gt;
+    &lt;td&gt;row 2, cell 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;  </pre>
+
+<p>This produces the following result:</p>
+<div class="output">
+<table border="1">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>row 1, cell 1</td>
+    <td>row 1, cell 2</td>
+  </tr>
+  <tr>
+    <td>row 2, cell 1</td>
+    <td>row 2, cell 2</td>
+  </tr>
+</table>  
+</div>
+
+<h1 class="common">Forms</h1>
+<p>HTML Forms are used to select different kinds of user input and pass that input to a server.  </p>
+<p>A form can contain input elements like text fields, checkboxes, radio-buttons, submit buttons and more. A form can also contain select lists, textarea, fieldset, legend, and label elements.</p>
+<p>The <code>&lt;form&gt;</code> tag is used to create an HTML form:</p>
+
+<pre class="common">&lt;form&gt;
+First name:
+&lt;input type=&quot;text&quot;
+ name=&quot;fname&quot; /&gt;
+Last name:
+&lt;input type=&quot;text&quot;
+ name=&quot;lname&quot; /&gt;
+Password:
+&lt;input type=&quot;password&quot;
+ name=&quot;pw&quot; /&gt;
+&lt;input type=&quot;radio&quot; name=
+  &quot;otype&quot; value=&quot;rent&quot; /&gt;Rent
+&lt;input type=&quot;radio&quot; name=
+  &quot;otype&quot; value=&quot;own&quot; /&gt;Own
+&lt;input type=&quot;checkbox&quot; name=
+  &quot;opts&quot; value=&quot;ac&quot; /&gt;A/C
+&lt;input type=&quot;checkbox&quot; name=
+  &quot;opts&quot; value=&quot;pool&quot; /&gt;Pool
+&lt;input type=&quot;submit&quot;
+  value=&quot;Submit&quot; /&gt;
+&lt;/form&gt;  </pre>
+
+<p>This produces the following result:</p>
+<div class="output">
+<form>
+First name:
+<input type="text"
+ name="fname" />
+Last name:
+<input type="text"
+ name="lname" />
+Password:
+<input type="password"
+ name="pw" /><br />
+<input type="radio" name=
+  "ownership" value="rent" />Rent<br />
+<input type="radio" name=
+  "ownership" value="own" />Own<br /><br />
+<input type="checkbox" name=
+  "options" value="ac" />A/C<br />
+<input type="checkbox" name=
+  "options" value="pool" />Pool<br /><br />
+<input type="submit" value="Submit" />
+</form>
+</div>
+
+<h1 class="common">HTML Links</h1>
+<p>Links are defined in HTML documents using the <code>&lt;a&gt;</code> tag. The text between the opening and closing tags is styled as a link and clicking on the link forwards to the referenced link.</p>
+
+<pre class="common">&lt;a href=&quot;http://mauiit.com&quot;&gt;
+  Visit our website!&lt;/a&gt;</pre>
+  
+<h1 class="common">HTML Images</h1>
+<p>Images are defined in HTML documents using the <code>&lt;img&gt;</code> tag. It is important to note that images are not actually inserted into the HTML document, but instead are referenced using a link.</p>
+
+<pre class="common">&lt;img src=&quot;smiley.gif&quot;
+  alt=&quot;Smiley face&quot; /&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<img src="smiley.gif" alt="Smiley face" />
+</div>
+
+</div>
+</body>
+</html>

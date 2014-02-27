@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>HTML Introduction</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">How To's</h1>
+<p>The following How To's show some basic steps for some of the more common tasks in HTML.</p>
+
+<h1 class="common">Frame a Basic Web Page</h1>
+<p>The following code can be used to frame a basic web page and includes the DOCTYPE, character encoding, title, and some content:</p>
+
+<pre class="common">
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//
+  DTD XHTML 1.0 Transitional//EN&quot;
+  &quot;http://www.w3.org/TR/xhtml1/
+  DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot;
+  content=&quot;text/html;
+  charset=utf-8&quot;&gt;
+&lt;title&gt;title goes here&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;p&gt;<em>content goes here</em>&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+
+<h1 class="common">Create a New Paragraph</h1>
+<p>The following example uses paragraph tags to start a new paragraph. Here are the steps:</p>
+<p>
+1. Type <code>&lt;p&gt;</code> to start a new paragraph<br />
+2. Type the desired text<br />
+3. Type <code>&lt;/p&gt;</code> to close the paragraph</p>
+
+<pre class="common">
+&lt;p&gt;<em>paragraph text</em>&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<p>paragraph text</p>
+</div>
+
+<h1 class="common">Add a Line Break</h1>
+
+<p>
+1. Type <code>&lt;br /&gt;</code> in front of the line of text where the new line should appear<br />
+2. Type additional <code>&lt;br /&gt;</code> wherever a line break is desired</p>
+
+<pre class="common">
+&lt;p&gt;<em>paragraph&lt;br /&gt;text</em>&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<p>paragraph<br />text</p>
+</div>
+
+<h1 class="common">Insert a Blank Space</h1>
+
+<p>
+Blank spaces can be inserted with a line of text to indent or add emphasis to the text.</p>
+<p>1. Type <code>&amp;nbsp;</code> in the text where the blank space should appear<br />
+  2. Type additional <code>&amp;nbsp;</code> entities to add another space</p>
+
+<pre class="common">
+&lt;p&gt;<em>some&amp;nbsp;&amp;nbsp;text</em>&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<p>some&nbsp;&nbsp;&nbsp;text</p>
+</div>
+
+<h1 class="common">Insert Preformatted Text</h1>
+
+<p>
+Preformatted text can be inserted by using the <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> tags. This will allow the preservation of line breaks and spaces within the text.</p>
+<p>1. Type <code>&lt;pre&gt;</code> above the text to keep intact<br />
+  2. Type <code>&lt;/pre&gt;</code> below the text</p>
+
+<pre class="common">
+&lt;pre&gt;<em>preformatted
+text
+line 3 with spaces
+</em>&lt;/pre&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<pre>preformatted
+text
+line 3 with spaces</pre>
+</div>
+
+<h1 class="common">Create a New Heading</h1>
+<p>Headings can be used to help clarify information on a page, organize text, or create visual structure. There are six heading levels ranging from level 1 (<code>&lt;h1&gt;</code>), the largest, to level 6 (<code>&lt;h6&gt;</code>), the smallest. Here are the steps to insert a level 1 heading:</p>
+<p>
+1. Type <code>&lt;h1&gt;</code> to start a new heading<br />
+2. Type the desired text for the heading<br />
+3. Type <code>&lt;/h1&gt;</code> to close the heading</p>
+
+<pre class="common">
+&lt;h1&gt;heading text&lt;/h1&gt;
+&lt;p&gt;paragraph text&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<h1>heading text</h1>
+<p>paragraph text</p>
+</div>
+
+<h1 class="common">Insert a Comment</h1>
+<p>Comments can be used to add notes within an HTML document, but do not display on the web page.</p>
+<p>
+1. Type <code>&lt;!--</code> to start a new comment<br />
+2. Type the desired text<br />
+3. Type <code>--&gt;</code> to close the comment</p>
+
+<pre class="common">
+&lt;!-- comment text --&gt;
+&lt;p&gt;paragraph text&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<!-- comment text -->
+<p>paragraph text</p>
+</div>
+
+<h1 class="common">Insert a Bulleted List</h1>
+<p>Use a bulleted list to set a list of items apart from the rest of the page of text.</p>
+<p>
+1. Type <code>&lt;ul&gt;</code> above the text you want to turn into a bulleted list<br />
+2. Type <code>&lt;li&gt;</code> in front of each item in the list<br />
+3. Type <code>&lt;/li&gt;</code> at the end of each item in the list<br />
+4. Type <code>&lt;/ul&gt;</code> after the list text</p>
+
+<pre class="common">
+&lt;ul&gt;
+&lt;li&gt;item 1&lt;/li&gt;
+&lt;li&gt;item 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<ul class="common">
+<li class="common">item 1</li>
+<li class="common">item 2</li>
+</ul>
+</div>
+
+<h1 class="common">Insert a Special Character</h1>
+<p>Special characters can be inserted into web page by using HTML codes. These codes are also called entities. Each entity consist of a name or number code preceded by an ampersand and ending with a semicolon.</p>
+<p>
+1. Type the name or number code for the character, with an ampersand (&amp;) before the code and a semicolon (;) following the code.<br />
+</p>
+
+<pre class="common">
+&lt;p&gt;
+&amp;copy; Copyright 2010
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;reg; registered trademark
+&lt;/p&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<p>&copy; Copyright 2010</p>
+<p>&reg; registered trademark</p>
+</div>
+
+</div>
+</body>
+</html>

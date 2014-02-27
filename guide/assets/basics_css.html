@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Cascading Style Sheets (CSS)</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Cascading Style Sheets (CSS)</h1>
+
+<p>Cascading Style Sheets (CSS) are a style sheet language used to describe the design of an HTML document. CSS can be used to control all visual aspects of the content. This includes:</p>
+
+<ul class="common">
+  <li class="common">Colors</li>
+  <li class="common">Fonts</li>
+  <li class="common">Layout</li>
+  <li class="common">Much more</li>
+</ul>
+
+<p>CSS is important to HTML because it enables the <strong>separation</strong> of content from design. CSS styles are usually separated into one of two places:</p>
+<p><strong>Internal CSS</strong></p>
+<p><img src="css-internal.gif" width="117" height="120" alt="Internal CSS" /></p>
+<p><strong>External CSS</strong></p>
+<p><img src="css-external.gif" width="237" height="120" alt="External CSS" /></p>
+<p>In general, using an external style sheet is preferred because it allows for site-wide consistency and reduces complexity / repetition.</p>
+
+<p>A basic CSS rule consists of a selector and declarations and is written similar to the following:</p>
+
+<pre class="common">p {
+  color:red;
+  font-family:Arial;
+}</pre>
+<br />
+
+<p>In this example, paragraph elements, <code>p</code> will have the two styles, <code>color</code> with a value of 'red' and <code>font-family</code> with a value of 'Arial' applied to them.</p>
+
+<p>Some example HTML code might look like the following:</p>
+
+<pre class="common">&lt;p&gt;My first paragraph&lt;p&gt;</pre>
+
+<p>If the style above was applied to this HTML code, the result would look like this:</p>
+
+<div class="output">
+<span style="color:red; font-family:Arial">Example Text</span>
+</div>
+<br />
+
+<p>More detailed information about CSS can be found in the <strong>CSS Pro Quick Guide</strong>.</p>
+
+</div>
+</body>
+</html>

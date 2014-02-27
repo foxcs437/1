@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>&lt;!DOCTYPE&gt; Declaration</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">&lt;!DOCTYPE&gt; Declaration</h1>
+<p>The Document Type Declaration (DTD) specifies the rules for the markup language, so that browsers can render the content correctly.</p>
+
+<p>The doctype declaration has the form:</p>
+<pre class="common">&lt;!DOCTYPE <em>root-element</em> PUBLIC
+  "<em>FPI</em>"
+  ["<em>URI</em>"]
+&gt;
+
+or
+
+&lt;!DOCTYPE <em>root-element</em> SYSTEM
+  ["<em>URI</em>"]
+&gt;</pre>
+
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="15%">Element</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td><code><em>root-element</em></code></td>
+    <td>The root element of an HTML document is <code>&lt;html&gt; </code>which is the first element opened and last element closed</td>
+  </tr>
+  <tr>
+    <td>PUBLIC</td>
+    <td>Indicates a public DTD</td>
+  </tr>
+  <tr>
+    <td>SYSTEM</td>
+    <td>Indicates a private DTD</td>
+  </tr>
+  <tr>
+    <td><em>FPI</em></td>
+    <td>A Formal Public Identifier used to uniquely identify the specification.</td>
+  </tr>
+  <tr>
+    <td><em>URI</em></td>
+    <td>The Uniform Resource Identifier of the DTD</td>
+  </tr>
+  </tbody>
+</table>
+<br />
+
+<p><strong>Note:</strong> The doctype declaration should be the very first line in an HTML document.</p>
+
+<p>There are three HTML DTDs:</p>
+<ul class="common">
+  <li class="common">Strict</li>
+  <li class="common">Transitional</li>
+  <li class="common">Frameset</li>
+</ul>
+
+<h2 class="common">HTML 4.01 Strict</h2>
+
+<p>Contains all HTML elements and attributes, but DOES NOT include presentational or deprecated elements. Framesets are not allowed.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD
+ HTML 4.01//EN" "http://www.w3.org/
+ TR/html4/strict.dtd"&gt;</small></pre>
+
+<h2 class="common">HTML 4.01 Transitional</h2>
+<p>Contains all HTML elements and attributes, INCLUDING presentational and deprecated elements. Framesets are not allowed.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD
+ HTML 4.01 Transitional//EN" "http://
+ www.w3.org/TR/html4/loose.dtd"&gt;</small></pre>
+
+<h2 class="common">HTML 4.01 Frameset</h2>
+<p>Same as HTML 4.01 Transitional, but allows frameset content.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD
+ HTML 4.01 Frameset//EN" "http://
+ www.w3.org/TR/html4/frameset.dtd"&gt;</small></pre>
+
+<h1 class="common">Older Doctypes</h1>
+
+<h2 class="common">HTML 2.0</h2>
+<p>This doctype is widely supported by browsers but lacks support for most commonly used presentational elements and attributes, tables, frames, and internationalization.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD
+ HTML//EN&quot;&gt;</small></pre>
+
+
+<h2 class="common">HTML 3.2</h2>
+<p>This doctype is supported by most browsers but has limited support for style sheets and no support for HTML 4 features such as frames and internationalization.</p>
+
+<pre class="common"><small>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD
+ HTML 3.2 Final//EN&quot;&gt;</small></pre>
+
+</div>
+</body>
+</html>

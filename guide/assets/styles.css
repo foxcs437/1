@@ -1,0 +1,163 @@
+/* CSS Document */
+
+h1 {
+	margin-top:10px;
+	margin-bottom:4px;
+}
+
+h1.common {
+	font-size:100%;
+	margin-top:10px;
+	margin-bottom:6px;
+	padding-top:4px;
+	font-weight:bold;
+	text-decoration:underline;
+	/*border-bottom:1px solid black;*/
+}
+
+h2.common {
+	font-size:90%;
+	margin-top:10px;
+	margin-bottom:6px;
+	padding-top:4px;
+	font-weight:bold;
+}
+
+h3.common {
+	font-size:80%;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding-top:4px;
+	font-weight:bold;
+}
+
+p {
+	font-size:95%;
+	margin-top:0px;
+}
+
+code {
+	font-size:1.0em;
+	color:#009;
+}
+
+pre.common {
+	font-size:1.1em;
+	color:#009;
+	background-color:#FFC;
+	border:1px solid #e1e1e2;
+	padding:10px;
+	margin:10px 0 10px 0;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+.supportfooter {
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+div.main {
+	padding:10px;
+	border-style:solid;
+	-webkit-border-radius:15px;
+	border-color:#888888;
+	background-color:#ffffff;
+}
+
+div.output {
+	background-color:#f5f5f5;
+	border:1px solid #e1e1e2;
+	padding:10px;
+	margin:10px 0 5px 0;
+}
+
+ol.common {
+  margin-left:1em;;
+  padding-left:0;
+	list-style:decimal;
+}
+
+ul.common {
+  margin-left:1em;;
+  padding-left:0;
+	list-style-type:square;
+}
+
+li.common {
+  margin:0;
+  padding:0;
+	padding-bottom:.5em;
+}
+
+ul.about {
+	margin-top:0px;
+}
+
+li.about {
+	margin-top:0px;
+	margin-left:-30px;
+}
+
+table {
+	font-size:95%;
+}
+
+table.reference {
+	border:1px solid #c3c3c3;
+	border-collapse:collapse;
+	cellspacing:0;
+	cellpadding:0;
+	width:100%;
+}
+
+table.reference th {
+	background-color:#66ccff;
+	border:1px solid #c3c3c3;
+	padding:3px;
+	vertical-align:top;
+}
+
+table.reference td {
+	border:1px solid #c3c3c3;
+	padding:3px;
+	vertical-align:top;
+}
+
+.deprecated {
+	background-color: #F00;
+	text-align: center;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	letter-spacing: 0.8em;
+}
+
+.deprecated_l1 {
+	color:white;
+	letter-spacing:.6em;
+	font-weight:bold;
+}
+
+.deprecated_l2 {
+	color:white;
+	font-size:small;
+}
+
+.notsupported {
+	color:#9F0000;
+}
+
+.htmlsupported {
+	color:rgb(0,0,0);
+	background-color:#ccc;
+	margin:2px;
+	padding:5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.bright_red {
+	color:rgb(255,0,0)
+}

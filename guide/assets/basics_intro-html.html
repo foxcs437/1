@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>HTML Introduction</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">HTML Introduction</h1>
+<p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage and is a language for describing web pages. Web pages consist of markup tags and plain text.</p>
+
+<h1 class="common">Document Structure</h1>
+<p>An HTML document is structured into three parts:</p>
+
+<p><img src="basic-parts-doctype.png" alt="HTML Required Tags" width="276" height="32" vspace="5" /><br />
+<small>Indicates what HTML version to use</small></p>
+
+<p><img src="basic-parts-head.png" alt="HTML Required Tags" width="276" height="32" vspace="5" /><br />
+<small>Contains mostly non-visual content</small></p>
+
+<p><img src="basic-parts-body.png" alt="HTML Required Tags" width="276" height="32" vspace="5" /><br />
+<small>Contains the visual content of the page</small></p>
+
+<h1 class="common">Syntax</h1>
+<p>HTML rules, or <em>syntax</em>, govern the way in which code is written. HTML tags are keywords surrounded by angle brackets, e.g. <code>&lt;html&gt;</code>. Most HTML tags come in pairs, the <em>opening tag</em> (<code>&lt;title&gt;</code>) and the <em>closing tag</em> (<code>&lt;/title&gt;</code>). The two tags make up an HTML element. As a best practice, all HTML tags should be closed, i.e. have an opening and closing tag.</p>
+
+<pre class="common">
+&lt;tag&gt;<em>content</em>&lt;/tag&gt;</pre>
+
+<p>In between the HTML tag pairs is the content in plain text, e.g.</p>
+
+<pre class="common"><code>&lt;h1&gt;</code>My Heading<code>&lt;/h1&gt;
+</code>&lt;p&gt;My Paragraph&lt;/p&gt;</pre>
+
+<p>Be aware that not all HTML tags have closing tags. Some tags, which do not wrap around content will close themselves, e.g. <code>&lt;br /&gt;</code>. These are also known as<em> empty </em>or <em>void</em> tags. To close empty tags, place a forward slash (/) before the final bracket, as shown in the following code sample:</p>
+
+<pre class="common">
+&lt;emptytag /&gt;</pre>
+
+<h1 class="common">Required Tags</h1>
+<p>All HTML documents need to have the <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags, along with the <code>&lt;!DOCTYPE&gt;</code> identifier as the first line. At a minimum, HTML pages should include the following elements:</p>
+<p><img src="basic-diagram.png" width="276" height="390" alt="HTML Required Tags" /></p>
+
+<p>The following table lists the required tags and a description of each:</p>
+
+  
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="15%">Element</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td><code>&lt;!DOCTYPE&gt;</code></td>
+    <td>Specifies to the browser which set of standards the document adheres to</td>
+  </tr>
+  <tr>
+    <td><code>&lt;html&gt;<br />&lt;/html&gt;</code></td>
+    <td>Frames the entire HTML page</td>
+  </tr>
+  <tr>
+    <td><code>&lt;head&gt;<br />&lt;/head&gt;</code></td>
+    <td>Frames information for the page. Can contain the following tags:<br />
+      <code>&lt;base&gt;</code>, <code>&lt;link&gt;</code>, <code>&lt;meta&gt;</code>, <code>&lt;object&gt;</code>, <code>&lt;script&gt;</code>, <code>&lt;style&gt;</code>, and <code>&lt;title&gt;</code>.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;body&gt;<br />&lt;/body&gt;</code></td>
+    <td>Frames the content of the page to be displayed in the browser</td>
+  </tr>
+  <tr>
+    <td><code>&lt;title&gt;<br />&lt;/title&gt;</code></td>
+    <td>Sets the title of the page (appears at the top of the browser window). The <code>&lt;title&gt;</code> element is contained within <code>&lt;head&gt;</code> element.</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<h1 class="common">Attributes and Values</h1>
+
+<p>Many tags have additional aspects that can be customized. These options are called <em>attributes</em> and appear inside the opening tag and their <em>value</em> is always inside quotation marks. The following example shows a tag which contains two attributes:</p>
+
+<pre class="common">
+&lt;tag attribute1=&quot;value&quot;
+  attribute2=&quot;value&quot;&gt;<em>Text</em>&lt;/tag&gt;</pre>
+
+<p>Attributes always appear inside the opening HTML tag. Multiple attributes may be specified by separating each with a space character.</p>
+
+</div>
+</body>
+</html>

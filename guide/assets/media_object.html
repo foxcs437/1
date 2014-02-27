@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>object</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Tag Description</h1>
+<p>The <strong>object</strong> tag is used to include objects such as images, audio, videos, Java applets, ActiveX, PDF, and Flash.</p>
+
+<p>This tag has the form:</p>
+<pre class="common">&lt;object archive=&quot;URL&quot;
+  border=&quot;{ number |
+    percentage }&quot;
+  classid=&quot;class ID&quot;
+  codebase=&quot;URL&quot;
+  codetype=&quot;MIME_type&quot;
+  data=&quot;URL&quot;
+  height=&quot;{ number |
+    percentage }&quot;
+  type=&quot;MIME_type&quot;
+  width=&quot;{ number |
+    percentage }&quot;&gt;
+  <em>text</em><br />&lt;/object&gt;
+</pre>
+<h1 class="common">Optional Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>align</td>
+    <td>left<br />
+      right<br />
+      top<br />
+      bottom</td>
+    <td>Defines the text alignment around the object</td>
+  </tr>
+  <tr>
+    <td>archive</td>
+    <td><em>URL</em></td>
+    <td>A space separated list of URL's to archives. The archives contains resources relevant to the object</td>
+  </tr>
+  <tr>
+    <td>border</td>
+    <td><em>pixels</em></td>
+    <td>Defines a border around the object</td>
+  </tr>
+  <tr>
+    <td>classid</td>
+    <td><em>class_ID</em></td>
+    <td>Defines a class ID value as set in the Windows Registry or a URL</td>
+  </tr>
+  <tr>
+    <td>codebase</td>
+    <td><em>URL</em></td>
+    <td>Defines where to find the code for the object</td>
+  </tr>
+  <tr>
+    <td>codetype</td>
+    <td><em>MIME_type</em></td>
+    <td>The internet media type of the code referred to by the classid attribute</td>
+  </tr>
+  <tr>
+    <td>data</td>
+    <td><em>URL</em></td>
+    <td>Defines a URL that refers to the object's data</td>
+  </tr>
+  <tr>
+    <td>declare</td>
+    <td>declare</td>
+    <td>Defines that the object should only be declared, not created or instantiated until needed</td>
+  </tr>
+  <tr>
+    <td>height</td>
+    <td><em>pixels</em></td>
+    <td>Defines the height of the object</td>
+  </tr>
+   <tr>
+    <td>hspace</td>
+    <td><em>pixels</em></td>
+    <td>Defines the horizontal spacing around the object</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><em>name</em></td>
+    <td>Defines the name for an object (to use in scripts) </td>
+  </tr>
+  <tr>
+    <td>standby</td>
+    <td><em>text</em></td>
+    <td>Defines a text to display while the object is loading</td>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td><em>MIME_type</em></td>
+    <td>Defines the MIME type of data specified in the data attribute</td>
+  </tr>
+  <tr>
+    <td>usemap</td>
+    <td><em>URL</em></td>
+    <td>Specifies a URL of a client-side image map to be used with the object</td>
+  </tr>
+  <tr>
+    <td>vspace</td>
+    <td><em>pixels</em></td>
+    <td>Defines the vertical spacing around the object</td>
+  </tr>
+  <tr>
+    <td>width</td>
+    <td><em>pixels</em></td>
+    <td>Specifies the MIME type of the linked document</td>
+  </tr>
+  </tbody>
+</table>
+<h1 class="common">Standard Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>class</td>
+    <td><em>classname</em></td>
+    <td>Sets the classname of the element</td>
+  </tr>
+  <tr>
+    <td>dir</td>
+    <td>rtl<br/>ltr</td>
+    <td>Sets the text direction for the content of the element</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td><em>id</em></td>
+    <td>Sets a unique id for the element</td>
+  </tr>
+  <tr>
+    <td>lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element</td>
+  </tr>
+  <tr>
+    <td>style</td>
+    <td><em>style_def</em></td>
+    <td>Sets the inline style of the element</td>
+  </tr>
+  <tr>
+    <td>tabindex</td>
+    <td><em>number</em></td>
+    <td>Specifies the tab order of the element</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td><em>text</em></td>
+    <td>Sets extra information about the element</td>
+  </tr>
+  <tr>
+    <td>xml:lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element in XHTML documents</td>
+  </tr>
+  </tbody>
+</table>
+<h1 class="common">Event Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>
+  <tr>
+    <td>onclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse click</td>
+  </tr>
+  <tr>
+    <td>ondblclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse double-click</td>
+  </tr>
+  <tr>
+    <td>onkeydown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed</td>
+  </tr>
+  <tr>
+    <td>onkeypress</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed and released</td>
+  </tr>
+  <tr>
+    <td>onkeyup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is released
+  </td></tr>
+  <tr>
+    <td>onmousedown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is pressed</td>
+  </tr>
+  <tr>
+    <td>onmousemove</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves</td>
+  </tr>
+  <tr>
+    <td>onmouseout</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves out of the element</td>
+  </tr>
+  <tr>
+    <td>onmouseover</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves over the element</td>
+  </tr>
+  <tr>
+    <td>onmouseup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is released</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Examples</h1>
+<p>The following example shows the basic use of this tag:</p>
+<pre class="common">&lt;object
+  codebase=&quot;http://www.xyzzy.com/
+    applet.class&quot;
+  classid=&quot;java:program.start&quot;
+  codetype=&quot;application/java-vm&quot;
+  height=&quot;50&quot;
+  width=&quot;50&quot;&gt;
+  &lt;param name=&quot;options&quot;
+    value=&quot;xyzzy&quot; /&gt;
+  Browser does not support Java.
+&lt;/object&gt;</pre>
+
+<h1 class="common">Browser Support</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="18%" align="center"><img src="firefox.gif" alt="Firefox" border="0" height="30" width="31" /> Firefox</td>
+    <td width="18%" align="center"><img src="ie9-32x32.png" alt="IE" border="0" height="32" width="32" /> IE</td>
+    <td width="18%" align="center"><img src="chrome-32x32.png" alt="Google Chrome" border="0" height="32" width="32" /> Chrome</td>
+    <td width="18%" align="center"><img src="opera.gif" alt="Opera" border="0" height="30" width="28" /> Opera</td>
+    <td width="18%" align="center"><img src="safari.gif" alt="Safari" border="0" height="30" width="28" /> Safari</td>
+  </tr>
+  <tr>
+    <td width="18%" align="center"><img src="check2.png" alt="Partially Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check2.png" alt="Partially Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check2.png" alt="Partially Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check2.png" alt="Partially Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check2.png" alt="Partially Supported" border="0" height="30" width="30" /></td>
+  </tr>
+</table>
+<p class="supportfooter">- Paritally supported in all major browsers</p>
+
+
+<h1 class="common">Doctype Declaration Support</h1>
+<p>The following table lists the doctype declarations this element may appear in:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th colspan="3">HTML 4.01 / XHTML 1.0</th>
+      <th rowspan="2" align="center" valign="bottom" width="20%">XHTML 1.1</th>
+    </tr>
+    <tr>
+      <td align="center" width="20%" style="background-color:#66ccff">Transitional</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Strict</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Frameset</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Miscellaneous Information</h1>
+<table class="reference" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="50%">Defined In:</th>
+      <td>HTML 4</td>
+    </tr>
+    <tr>
+      <th align="left" width="50%">Empty Tag:</th>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</body>
+</html>

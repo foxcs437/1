@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>input</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="main">
+
+<!-- DATA BEGIN -->
+
+<h1 class="common">Tag Description</h1>
+<p>The <strong>input</strong> tag is used to select user information. An input field can be a text field, a checkbox, a password field, a radio button, a button, and more.</p>
+<p>This tag has the form:</p>
+<pre class="common">&lt;input name=&quot;<em>text</em>&quot; type=&quot;{
+  button | checkbox | file | 
+  hidden | image | password | 
+  radio | reset | submit |
+  text }&quot;
+  value=&quot;value&quot; /&gt;</pre>
+
+<h1 class="common">Optional Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>accept</td>
+    <td><em>MIME_type</em></td>
+    <td>Specifies the types of files that can be submitted through a file upload (only for type=&quot;file&quot;)</td>
+  </tr>
+  <tr>
+    <td>align</td>
+    <td>left<br />
+right<br />
+top<br />
+middle<br />
+bottom</td>
+    <td><span style="color:red;">(deprecated)</span> Specifies the alignment of an image input (only for type=&quot;image&quot;)</td>
+  </tr>
+  <tr>
+    <td>alt</td>
+    <td><em>text</em></td>
+    <td>Specifies an alternate text for an image input (only for type=&quot;image&quot;)</td>
+  </tr>
+  <tr>
+    <td>checked</td>
+    <td>checked</td>
+    <td>Specifies that an input element should be preselected when the page loads (for type=&quot;checkbox&quot; or type=&quot;radio&quot;)</td>
+  </tr>
+  <tr>
+    <td>disabled</td>
+    <td>disabled</td>
+    <td>Specifies that an input element should be disabled when the page loads</td>
+  </tr>
+  <tr>
+    <td>maxlength</td>
+    <td><em>number</em></td>
+    <td>Specifies the maximum length (in characters) of an input field (for type=&quot;text&quot; or type=&quot;password&quot;)</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><em>name</em></td>
+    <td>Specifies a name for an input element</td>
+  </tr>
+  <tr>
+    <td>readonly</td>
+    <td>readonly</td>
+    <td>Specifies that an input field should be read-only (for type=&quot;text&quot; or type=&quot;password&quot;)</td>
+  </tr>
+  <tr>
+    <td>size</td>
+    <td><em>number</em></td>
+    <td>Specifies the width of an input field</td>
+  </tr>
+  <tr>
+    <td>src</td>
+    <td><em>URL</em></td>
+    <td>Specifies the URL to an image to display as a submit button</td>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>button<br />
+checkbox<br />
+file<br />
+hidden<br />
+image<br />
+password<br />
+radio<br />
+reset<br />
+submit<br />
+text</td>
+    <td>Specifies the type of an input element</td>
+  </tr>
+  <tr>
+    <td>value</td>
+    <td><em>value</em></td>
+    <td>Specifies the value of an input element</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Standard Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>accesskey</td>
+    <td><em>character</em></td>
+    <td>Sets a keyboard shortcut to access an element</td>
+  </tr>
+  <tr>
+    <td>class</td>
+    <td><em>classname</em></td>
+    <td>Sets the classname of the element</td>
+  </tr>
+  <tr>
+    <td>dir</td>
+    <td>rtl<br/>ltr</td>
+    <td>Sets the text direction for the content of the element</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td><em>id</em></td>
+    <td>Sets a unique id for the element</td>
+  </tr>
+  <tr>
+    <td>lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element</td>
+  </tr>
+  <tr>
+    <td>style</td>
+    <td><em>style_def</em></td>
+    <td>Sets the inline style of the element</td>
+  </tr>
+  <tr>
+    <td>tabindex</td>
+    <td><em>number</em></td>
+    <td>Specifies the tab order of the element</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td><em>text</em></td>
+    <td>Sets extra information about the element</td>
+  </tr>
+  <tr>
+    <td>xml:lang</td>
+    <td><em>lang_code</em></td>
+    <td>Sets the language code for the content of the element in XHTML documents</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Event Attributes</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <th align="left" width="20%">Attribute</th>
+    <th align="left" width="20%">Value</th>
+    <th align="left">Description</th>
+  </tr>  
+  <tr>
+    <td>onblur</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when an element loses focus</td>
+  </tr>
+  <tr>
+    <td>onchange</td>
+    <td><em>script</em></td>
+    <td>Executes script when an element's value changes</td>
+  </tr>
+  <tr>
+    <td>onclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse click</td>
+  </tr>
+  <tr>
+    <td>ondblclick</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> on a mouse double-click</td>
+  </tr>
+  <tr>
+    <td>onfocus</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when an element gets focus</td>
+  </tr>
+  <tr>
+    <td>onkeydown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed
+  </td></tr>
+  <tr>
+    <td>onkeypress</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is pressed and released</td>
+  </tr>
+  <tr>
+    <td>onkeyup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is released
+  </td></tr>
+  <tr>
+    <td>onmousedown</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is pressed
+  </td></tr>
+  <tr>
+    <td>onmousemove</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves</td>
+  </tr>
+  <tr>
+    <td>onmouseout</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves out of the element</td>
+  </tr>
+  <tr>
+    <td>onmouseover</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when the mouse cursor moves over the element</td>
+  </tr>
+  <tr>
+    <td>onmouseup</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a mouse button is released</td>
+  </tr>
+  <tr>
+    <td>onselect</td>
+    <td><em>script</em></td>
+    <td>Executes <em>script</em> when a key is released</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Examples</h1>
+<p>The following example shows the basic use of this tag:</p>
+<pre class="common">&lt;form action=&quot;form_action.asp&quot;
+  method=&quot;get&quot;&gt;<br />  First name:
+  &lt;input type=&quot;text&quot;
+    name=&quot;fname&quot; /&gt;
+  Last name:
+  &lt;input type=&quot;text&quot;
+    name=&quot;lname&quot; /&gt;
+  &lt;input type=&quot;submit&quot;
+    value=&quot;Submit&quot; /&gt;
+&lt;/form&gt;</pre>
+
+<p>This produces the following result:</p>
+
+<div class="output">
+<form action="form_action.asp" method="get">
+  First name: <input type="text" name="fname" /><br />
+  Last name: <input type="text" name="lname" /><br />
+  <input type="submit" value="Submit" />
+</form>
+</div>
+
+<h1 class="common">Browser Support</h1>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="18%" align="center"><img src="firefox.gif" alt="Firefox" border="0" height="30" width="31" /> Firefox</td>
+    <td width="18%" align="center"><img src="ie9-32x32.png" alt="IE" border="0" height="32" width="32" /> IE</td>
+    <td width="18%" align="center"><img src="chrome-32x32.png" alt="Google Chrome" border="0" height="32" width="32" /> Chrome</td>
+    <td width="18%" align="center"><img src="opera.gif" alt="Opera" border="0" height="30" width="28" /> Opera</td>
+    <td width="18%" align="center"><img src="safari.gif" alt="Safari" border="0" height="30" width="28" /> Safari</td>
+  </tr>
+  <tr>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+    <td width="18%" align="center"><img src="check.png" alt="Supported" border="0" height="30" width="30" /></td>
+  </tr>
+</table>
+
+
+<h1 class="common">Doctype Declaration Support</h1>
+<p>The following table lists the doctype declarations this element may appear in:</p>
+<table class="reference" border="1" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th colspan="3">HTML 4.01 / XHTML 1.0</th>
+      <th rowspan="2" align="center" valign="bottom" width="20%">XHTML 1.1</th>
+    </tr>
+    <tr>
+      <td align="center" width="20%" style="background-color:#66ccff">Transitional</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Strict</td>
+      <td align="center" width="20%" style="background-color:#66ccff">Frameset</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+      <td align="center"><img src="check_yes.png" width="18" height="18" alt="Yes" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 class="common">Miscellaneous Information</h1>
+<table class="reference" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <th align="left" width="50%">Defined In:</th>
+      <td>HTML 2</td>
+    </tr>
+    <tr>
+      <th align="left" width="50%">Empty Tag:</th>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</body>
+</html>
